@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54965" started-at="2018-11-27T14:41:21Z" finished-at="2018-11-27T14:42:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54965" started-at="2018-11-27T14:41:21Z" finished-at="2018-11-27T14:42:16Z">
+      <class name="M.Driver.ComponentsMain.CreationTransactionOnlineDriver">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, boolean, java.lang.String)[pri:0, instance:M.Driver.ComponentsMain.CreationTransactionOnlineDriver@617c74e5]" name="inicioClase" is-config="true" duration-ms="3511" started-at="2018-11-27T09:41:22Z" finished-at="2018-11-27T09:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://cert-secure.safetypay.com/Merchants/Login.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="createTransactionO(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:M.Driver.ComponentsMain.CreationTransactionOnlineDriver@617c74e5]" name="createTransactionO" duration-ms="29673" started-at="2018-11-27T09:41:25Z" data-provider="datosEntrada" finished-at="2018-11-27T09:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M_TEST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aquesquen.safetypay@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Numero_1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[101.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 hrs]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CLP]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Chile]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Your Online payment request has been generated successfully!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTransactionO -->
+        <test-method status="PASS" signature="createTransactionO(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:M.Driver.ComponentsMain.CreationTransactionOnlineDriver@617c74e5]" name="createTransactionO" duration-ms="21465" started-at="2018-11-27T09:41:55Z" data-provider="datosEntrada" finished-at="2018-11-27T09:42:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M_TEST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aquesquen.safetypay@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Numero_1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[102.10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 hrs]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CLP]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Chile]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Your Online payment request has been generated successfully!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTransactionO -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:M.Driver.ComponentsMain.CreationTransactionOnlineDriver@617c74e5]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-11-27T09:42:16Z" finished-at="2018-11-27T09:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- M.Driver.ComponentsMain.CreationTransactionOnlineDriver -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

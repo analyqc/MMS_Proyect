@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="navegador" value="chrome"/>
+  <parameter name="rutaArchivo" value="C:\\Users\\aquesquen\\eclipse-workspace\\c\\Data\\CreateTransaction.xls"/>
+  <parameter name="remoto" value="1"/>
+  <parameter name="name " value="excel"/>
+  <test name="Test(failed)">
+    <parameter name="navegador" value="chrome"/>
+    <parameter name="rutaArchivo" value="C:\\Users\\aquesquen\\eclipse-workspace\\c\\Data\\CreateTransaction.xls"/>
+    <parameter name="remoto" value="1"/>
+    <parameter name="name " value="excel"/>
+    <classes>
+      <class name="M.Driver.ComponentsMain.CreationTransactionOnlineDriver">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createTransactionO" invocation-numbers="0"/>
+          <include name="inicioClase"/>
+        </methods>
+      </class> <!-- M.Driver.ComponentsMain.CreationTransactionOnlineDriver -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

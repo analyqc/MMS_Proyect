@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="navegador" value="chrome"/>
+		<parameter name="remoto" value="1"/>
+		<parameter name="urlInicial" value="http://cert-secure.safetypay.com/Merchants/Login.aspx"/>
+		<parameter name="rutaArchivo" value="C:\\Users\\aquesquen\\eclipse-workspace\\c\\Data\\CreateTransaction.xls"/>
+		<parameter name="name " value="excel"/>
+     
+    <classes>
+      <class name="M.Driver.ComponentsMain.CreationTransactionOnlineDriver"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
